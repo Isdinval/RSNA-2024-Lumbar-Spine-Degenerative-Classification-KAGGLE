@@ -84,21 +84,5 @@ In this notebook, we cover:
 * Loads DICOM images for each series.
 * Preprocesses images (normalization, resizing).
 * Saves preprocessed images as PNG files.
-OUTPUT : 16 GB of PNG have been created  following the structure : 
-cvt_png/
-├── study_id_1
-│   ├── Axial_T2
-│   │   ├── 000.png
-│   │   ├── 001.png
-│   │   └── ...
-│   ├── Sagittal_T2_STIR
-│   │   ├── 000.png
-│   │   ├── 001.png
-│   │   └── ...
-│   └── Sagittal_T1
-│       ├── 000.png
-│       ├── 001.png
-│       └── ...
-├── study_id_2
-│   ├── ...
-└── ...
+**OUTPUT** : 16 GB of PNG images have been created.
+
