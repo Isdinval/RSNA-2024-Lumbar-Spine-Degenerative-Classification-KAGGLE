@@ -67,7 +67,10 @@ train_label_coordinates.csv
 - series_description The scan's orientation.
 
 ## NOTEBOOKS
-1. anatomy-image-visualization-overview-rsna-raids.ipynb
-  --> This notebook aims to give a brief overview of what data is available in the challenge and how to get started with visualizing some of the conditions in our dataset (Original noteboom from Abhinav Suri given at the beginning of the competition).
-  --> In this notebook we covered the basic distribution of cases in our population, how to look at which scans and diagnoses correspond to each patient, and how to visualize the patient DICOMs + locations of annotated pathologies. 
-   
+**anatomy-image-visualization-overview-rsna-raids.ipynb**
+This notebook aims to give a brief overview of the data available in the RSNA-RAIDS challenge and how to visualize some of the conditions in the dataset (**Original notebook by Abhinav Suri** provided at the beginning of the competition).
+
+In this notebook, we cover:
+* The basic distribution of cases in the population
+* How to identify which scans and diagnoses correspond to each patient
+* How to visualize patient DICOMs and locations of annotated pathologies
