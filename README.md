@@ -68,6 +68,7 @@ train_label_coordinates.csv
 
 ## NOTEBOOKS
 **anatomy-image-visualization-overview-rsna-raids.ipynb**
+
 This notebook aims to give a brief overview of the data available in the RSNA-RAIDS challenge and how to visualize some of the conditions in the dataset (**Original notebook by Abhinav Suri** provided at the beginning of the competition).
 
 In this notebook, we cover:
