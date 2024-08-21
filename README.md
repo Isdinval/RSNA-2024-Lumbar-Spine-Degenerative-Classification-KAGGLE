@@ -32,10 +32,11 @@ The sample weights are as follows:
 4 for severe.
 For each row ID in the test set, you must predict a probability for each of the different severity levels. The file should contain a header and have the following format:
 
-row_id,normal_mild,moderate,severe
-123456_left_neural_foraminal_narrowing_l1_l2,0.333,0.333,0.333
-123456_left_neural_foraminal_narrowing_l2_l3,0.333,0.333,0.333
-123456_left_neural_foraminal_narrowing_l3_l4,0.333,0.333,0.333
+| row_id | normal_mild | moderate | severe |
+| --- | --- | --- | --- |
+| '123456_left_neural_foraminal_narrowing_l1_l2' | 0.333 | 0.333 | 0.333 |
+| '123456_left_neural_foraminal_narrowing_l2_l3' | 0.333 | 0.333 | 0.333 |
+| '123456_left_neural_foraminal_narrowing_l3_l4' | 0.333 | 0.333 | 0.333 |
 etc.
 
 ## Dataset Description
