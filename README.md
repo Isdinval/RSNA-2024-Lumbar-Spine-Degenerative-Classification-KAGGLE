@@ -70,8 +70,35 @@ train_label_coordinates.csv
 **anatomy-image-visualization-overview-rsna-raids.ipynb**
 
 This notebook aims to give a brief overview of the data available in the RSNA-RAIDS challenge and how to visualize some of the conditions in the dataset (**Original notebook by Abhinav Suri** provided at the beginning of the competition).
-
 In this notebook, we cover:
 * The basic distribution of cases in the population
 * How to identify which scans and diagnoses correspond to each patient
 * How to visualize patient DICOMs and locations of annotated pathologies
+
+**anatomy-image-visualization-overview-rsna-raids.ipynb**
+
+This notebook aims to convert DICOM images from the RSNA 2024 Lumbar Spine Degenerative Classification dataset into PNG format for further processing.
+In this notebook, we cover:
+* Reads CSV files containing image metadata.
+* Iterates over study IDs and series descriptions.
+* Loads DICOM images for each series.
+* Preprocesses images (normalization, resizing).
+* Saves preprocessed images as PNG files.
+OUTPUT : 16 GB of PNG have been created  following the structure : 
+cvt_png/
+├── study_id_1
+│   ├── Axial_T2
+│   │   ├── 000.png
+│   │   ├── 001.png
+│   │   └── ...
+│   ├── Sagittal_T2_STIR
+│   │   ├── 000.png
+│   │   ├── 001.png
+│   │   └── ...
+│   └── Sagittal_T1
+│       ├── 000.png
+│       ├── 001.png
+│       └── ...
+├── study_id_2
+│   ├── ...
+└── ...
