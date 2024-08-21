@@ -67,7 +67,7 @@ train_label_coordinates.csv
 - series_description The scan's orientation.
 
 ## NOTEBOOKS
-**anatomy-image-visualization-overview-rsna-raids.ipynb**
+### **1. anatomy-image-visualization-overview-rsna-raids.ipynb**
 
 This notebook aims to give a brief overview of the data available in the RSNA-RAIDS challenge and how to visualize some of the conditions in the dataset (**Original notebook by Abhinav Suri** provided at the beginning of the competition).
 In this notebook, we cover:
@@ -75,7 +75,7 @@ In this notebook, we cover:
 * How to identify which scans and diagnoses correspond to each patient
 * How to visualize patient DICOMs and locations of annotated pathologies
 
-**anatomy-image-visualization-overview-rsna-raids.ipynb**
+### **2. rsna2024-lsdc-transforming-dicom-into-png.ipynb**
 
 This notebook aims to convert DICOM images from the RSNA 2024 Lumbar Spine Degenerative Classification dataset into PNG format for further processing.
 In this notebook, we cover:
