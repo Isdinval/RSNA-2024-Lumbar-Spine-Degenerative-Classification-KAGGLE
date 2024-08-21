@@ -1,6 +1,9 @@
 # RSNA-2024-Lumbar-Spine-Degenerative-Classification-KAGGLE
 Classify lumbar spine degenerative conditions
 
+![header](https://github.com/user-attachments/assets/64805055-afa7-4b6a-ba1f-e6218a0b4b69)
+
+
 ## Overview
 The goal of this competition is to create models that can be used to aid in the detection and classification of degenerative spine conditions using lumbar spine MR images. Competitors will develop models that simulate a radiologist's performance in diagnosing spine conditions.
 
