@@ -84,5 +84,6 @@ In this notebook, we cover:
 * Loads DICOM images for each series.
 * Preprocesses images (normalization, resizing).
 * Saves preprocessed images as PNG files.
+
 **OUTPUT** : 16 GB of PNG images have been created.
 
