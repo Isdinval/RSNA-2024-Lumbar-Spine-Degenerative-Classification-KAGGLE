@@ -87,3 +87,27 @@ In this notebook, we cover:
 
 **OUTPUT** : 16 GB of PNG images have been created.
 
+### **3. rsna2024-lsdc-training-baseline.ipynb**
+This notebook aims to train and evaluate an image classification model for predicting lumbar spine degenerative conditions using a small dataset of bone imagery. It utilizes a CNN model previously trained on bone images (transfer learning) and incorporates techniques like data augmentation, K-Fold Cross-Validation, mixed precision training, and early stopping for enhanced performance and generalization.
+In this notebook, we cover:
+* Data Preprocessing:
+  * Loads and cleans the training and test data.
+  * Converts label strings to numerical labels.
+  * Prepares the data into a format suitable for the model.
+* Data Augmentation:
+  * Applies various transformations to the training data to increase its diversity and robustness.
+* Model Definition and Testing:
+  * Defines a custom CNN model using the timm library.
+  * Tests the model with random input to ensure it works correctly.
+* Training Loop:
+  * Implements K-Fold Cross-Validation to evaluate the model's performance on different subsets of the data.
+  * Uses mixed precision training to accelerate training.
+  * Employs early stopping to prevent overfitting.
+  * Tracks and saves the best-performing models based on validation metrics.
+* Inference and Submission:
+  * Loads the best model(s) from the training process.
+  * Makes predictions on the test data using the trained models.
+  * Generates a submission file in the required format.
+
+**OUTPUT** : A trained model on the competition dataset. 
+
