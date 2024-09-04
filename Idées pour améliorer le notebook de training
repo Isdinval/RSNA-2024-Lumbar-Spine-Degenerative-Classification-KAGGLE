@@ -150,3 +150,17 @@ Copier le code
 from sklearn.metrics import classification_report
 print(classification_report(y_true, y_pred, target_names=["Normal/Mild", "Moderate", "Severe"]))
 
+====================================================================================
+9. Ensembling one or multiple models
+====================================================================================
+For an ensemble to be effective, the individual models should ideally have different kinds of errors or strengths.
+
+- Complementary Strengths:
+Models that make different kinds of errors can complement each other’s strengths and weaknesses. For example, one model might be better at handling certain types of images or classes, while the other might excel in different areas.
+- Error Reduction:
+By combining models that perform differently on various parts of the dataset, the ensemble can potentially reduce the overall error rate. Errors made by one model might be corrected by the other, leading to improved overall accuracy.
+
+Proposition 1 : Mixing efficient net B3 (fast and less accurate) and efficient net B8 (slow and more accurate)
+Proposition 2 : Mixing different model architectures : Ex: EfficientNet and ResNet (resNet50, ResNet101, ResNet152), DenseNet (DensetNet121, DenseNet169), Inception network (InceptionV3, InceptionResNetV2)
+
+
