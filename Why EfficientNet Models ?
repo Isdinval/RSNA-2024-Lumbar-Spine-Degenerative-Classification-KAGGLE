@@ -1,0 +1,17 @@
+EfficientNet models is a family of convolutional neural networks (CNNs) designed by Google AI to achieve high performance with fewer computational resources.
+
+Here's a breakdown of the key points:
+
+Why EfficientNet?
+- Traditional methods for scaling CNNs involve increasing width, depth, or resolution independently.
+- EfficientNet proposes a more balanced approach called compound scaling, which uniformly scales all three dimensions.
+- This results in models with fewer parameters yet achieving better accuracy compared to previous architectures.
+
+Commonalities Across EfficientNet Models (B0-B7):
+- All models share a similar stem (initial layers) and final layers.
+- Each model consists of 7 main blocks, further containing a varying number of sub-blocks.
+- Five basic modules are used to construct these sub-blocks.
+
+Understanding Model Differences:
+- The number of sub-blocks increases as we move from EfficientNet-B0 to B7.
+- The main difference between B0-B3 and B4-B7 lies in the number of feature maps (channels), impacting the number of parameters.
