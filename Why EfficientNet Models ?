@@ -15,3 +15,5 @@ Commonalities Across EfficientNet Models (B0-B7):
 Understanding Model Differences:
 - The number of sub-blocks increases as we move from EfficientNet-B0 to B7.
 - The main difference between B0-B3 and B4-B7 lies in the number of feature maps (channels), impacting the number of parameters.
+
+SOURCE : https://towardsdatascience.com/complete-architectural-details-of-all-efficientnet-models-5fd5b736142
